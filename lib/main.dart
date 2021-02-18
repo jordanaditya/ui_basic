@@ -11,13 +11,13 @@ class HomePage extends StatelessWidget {
         length: 2,
         child: Scaffold(
           appBar: AppBar(
+            backgroundColor: Colors.grey,
             bottom: TabBar(
               indicatorColor: Colors.white,
               tabs: [
                 Tab(text: 'Berita Hari Ini'),
                 Tab(text: 'Pertandingan Terbaru')
               ],),
-            backgroundColor: Colors.grey,
           title: Text('MyApp')
           ),
           body: TabBarView(
